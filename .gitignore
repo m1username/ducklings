@@ -1,7 +1,7 @@
 
 '#' Ignore objects and archives.
 
-# Ignore files,
+# Ignore files
 *.iml
 
 .idea/
