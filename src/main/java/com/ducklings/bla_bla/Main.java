@@ -1,8 +1,10 @@
 package com.ducklings.bla_bla;
 
 
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*задача будет на IO
         дано: текстовый файл (создаете сами руками)
         задача: сделать копию, но все строки написаны справа-налево.
@@ -14,7 +16,7 @@ public class Main {
 
         ты пишешь на стримах, без циклов.*/
 
-        //System.out.println(TextReader.getText());
+        System.out.println(TextReader.getText());
 
 
     }

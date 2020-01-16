@@ -5,7 +5,7 @@ import java.io.IOException;//хз, добавился через Alt+Enter дл�
 import java.util.Scanner;
 
 public class TextReader {
-    public String getText() throws IOException {
+    public static String getText() throws IOException {
 
         FileReader fr = new FileReader("TextFile.txt");
         Scanner scan = new Scanner(fr);
